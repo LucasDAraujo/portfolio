@@ -47,6 +47,15 @@ main {
     list-style: none;
     text-decoration: none;
 }
+main .coluna section h2 a{
+    color:#336699;
+}
+main .coluna section h2 a{
+    color:#336699;
+}
+main h3 a{
+    color:#336699;
+}
 
 .coluna {
     flex-basis: 49%;
@@ -156,6 +165,9 @@ main .coluna section h2 {
     font-size: 1.3rem;
     margin: 0 0 15px;
 }
+
+
+
 main .coluna section p {
     font-size: 0.9rem;
     color: var(--corTextPrimaria);
@@ -184,6 +196,20 @@ main .coluna section ul li strong {
 header .container {
     position: relative;
 }
+
+span.baixo-esquerda,span.topo-direita{
+    z-index: -1;
+}
+#show main .coluna section h2 {
+    margin: 5px 0 5px;
+}
+#show main .coluna section h2 {
+    margin: 5px 0 5px;
+}
+#show main .coluna  {
+    flex-basis: 100%;
+}
+
 label {
     position: absolute;
     top: 30px;
@@ -308,6 +334,7 @@ label span {
         border-bottom-color: var(--corTextPrimaria);
         border-left-color: var(--corTextPrimaria);
     }
+
     main .coluna {
         padding: 0;
     }
